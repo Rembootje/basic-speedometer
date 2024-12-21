@@ -4,4 +4,7 @@ config = {
 
     --[[Speedometer]]
     measurement = 'KPH', --KPH or MPH
+
+    --[[Gearbox]]
+    
 }

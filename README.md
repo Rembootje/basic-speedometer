@@ -11,7 +11,7 @@ The Basic Speedometer is a simple resource for Grand Theft Auto V (GTA V) that d
 ## Installation
 
 1. **Download the Resource**
-   - Clone or download the repository from [GitHub](https://github.com/overextended/ox_doorlock).
+   - Clone or download the repository from [GitHub](https://github.com/Rembootje/basic-speedometer).
 
 2. **Add to Your Server**
    - Place the `basic_speedometer` folder into your server's `resources` directory.

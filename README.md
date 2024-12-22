@@ -1,12 +1,25 @@
-# README for Basic Speedometer
+# README for Speedometer Script with Gearbox Feature
 
 ## Overview
-The Basic Speedometer is a simple resource for Grand Theft Auto V (GTA V) that displays the player's current speed in either kilometers per hour (KPH) or miles per hour (MPH) on the screen. This resource is designed to enhance the gaming experience by providing real-time speed information while driving.
+This repository contains a speedometer script designed for use in gaming environments. The script provides real-time speed tracking and display functionalities, along with a new gearbox feature that enhances the driving experience by allowing players to monitor their gear shifts.
+
+## File Structure
+The following files are included in this repository:
+
+- **/config.lua**
+  - Contains configuration settings for the speedometer and gearbox, such as display options, measurement units, and gearbox settings.
+
+- **/fxmanifest.lua**
+  - Defines the metadata for the script, including dependencies, versioning, and resource information.
+
+- **/speedometer.lua**
+  - The main script that implements the speedometer and gearbox functionalities, including calculations, display logic, and gear shift management.
 
 ## Features
-- Displays speed in KPH or MPH based on configuration.
-- Customizable text font.
-- Lightweight and efficient, with minimal performance impact.
+- Real-time speed tracking
+- Gearbox feature to display current gear
+- Customizable display settings
+- Compatibility with various game environments
 
 ## Installation
 
@@ -22,23 +35,22 @@ The Basic Speedometer is a simple resource for Grand Theft Auto V (GTA V) that d
      start basic_speedometer
      ```
 
-## Configuration
+## Usage
+- Once installed, the speedometer will automatically activate when the player enters a vehicle.
+- Players can view their current speed and gear on the screen, with options to customize the display through the configuration file.
 
-The configuration file is located in `config.lua`. You can customize the following settings:
+## Customization
+- Modify the `/config.lua` file to adjust settings such as:
+  - Speed measurement units (e.g., km/h or mph)
+  - Display colors and positions
+  - Gearbox settings, including gear ratios and shift points
 
-- **Text Font**
-  - `textfont`: 
-    - `1` = Cursive
-    - `2` = Normal
+## Gearbox Feature
+- The gearbox feature allows players to see their current gear while driving.
+- Players can monitor gear shifts, enhancing the realism and control of the driving experience.
 
-- **Speed Measurement**
-  - `measurement`: 
-    - `'KPH'` for kilometers per hour
-    - `'MPH'` for miles per hour
+## Contribution
+If you have suggestions for improvements or additional features, feel free to submit a pull request or open an issue in the repository.
 
-### Example Configuration
-```lua
-config = {
-    textfont = 1, -- 1 = Cursive, 2 = Normal
-    measurement = 'KPH', -- KPH or MPH
-}
+## Acknowledgments
+Thanks to the community for their feedback that helped improve this script, especially the addition of the gearbox feature.
